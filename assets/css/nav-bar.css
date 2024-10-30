@@ -1,0 +1,12 @@
+.nav-bar li a {
+  color: #003f7d;
+}
+.nav-bar li a:hover {
+  color: #ff5003;
+}
+.logo {
+  width: 250px;
+}
+.navbar-toggler-icon {
+  color: black;
+}

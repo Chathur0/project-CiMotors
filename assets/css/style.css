@@ -1,0 +1,88 @@
+.service-container {
+  display: inline-block;
+  background-color: #003f7d;
+  transition: transform 0.4s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-container:hover {
+  background-color: #6084a6;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 30px #003f7d;
+  border: 2px solid #003f7d;
+}
+.btn-learn-more {
+  background-color: #ff5003;
+  color: #ffffff;
+  text-decoration: none;
+  border: solid 2px #ff5003;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-learn-more:hover {
+  color: #ff5003;
+  background-color: #ffffff;
+  border: solid 2px #ff5003;
+}
+.our-word {
+  background-color: #fff6ef;
+}
+.background-1 {
+  background: url(../image/background/background-1.png);
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.txt-why {
+  font-size: 75px;
+}
+.txt-join-with-us {
+  font-size: 50px;
+  color: #003f7d;
+}
+
+.carousel-image {
+  height: 80vh;
+  object-fit: cover;
+}
+.main-topic-container {
+  top: -150px;
+  width: 80%;
+}
+
+@media (max-width: 992px) {
+  .txt-why {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .txt-why {
+    font-size: 35px;
+  }
+  .carousel-image {
+    height: 50vh;
+  }
+  .txt-join-with-us {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .txt-why {
+    font-size: 25px;
+  }
+  .txt-join-with-us {
+    font-size: 25px;
+  }
+  .carousel-image {
+    height: 30vh;
+  }
+  .main-topic h1 {
+    font-size: 22px;
+  }
+  .main-topic p {
+    font-size: 11px;
+  }
+}
